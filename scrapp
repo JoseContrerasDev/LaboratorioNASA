@@ -1,0 +1,8 @@
+import pandas as pd
+
+# Cargar el archivo CSV
+archivo_csv = 'C:/Users/Cande/Downloads/OSD-575-samples.csv'  # Cambia esto por la ruta a tu archivo
+datos = pd.read_csv(archivo_csv)
+
+# Mostrar las primeras filas del DataFrame
+print(datos.head())
